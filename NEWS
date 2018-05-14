@@ -767,6 +767,10 @@ PHP                                                                        NEWS
 - GMP:
   . Fixed bug #70896 (gmp_fact() silently ignores non-integer input). (Sara)
 
+- GD:
+  . Fixed bug #76324 (cannot detect recent versions of freetype with
+    pkg-config). (Eli Schwartz)
+
 - Hash:
   . Changed HashContext from resource to object. (Rouven Weßling, Sara)
   . Disallowed usage of non-cryptographic hash functions with HMAC and PBKDF2.
